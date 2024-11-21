@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <form action="/submit" method="POST">
+        <h2>Application Info</h2>
+        <label for="mission">Select a mission:</label>
+        <select name="mission" id="mission">
+            <option value="Rajshahi">Rajshahi</option>
+            <!-- Add more options if necessary -->
+        </select><br><br>
+
+        <label for="web_file_number">Enter your Web File Number:</label>
+        <input type="text" name="web_file_number" id="web_file_number" value="BGDRV3706424"><br><br>
+
+        <label for="ivac_center">Select your IVAC Center:</label>
+        <select name="ivac_center" id="ivac_center">
+            <option value="IVAC, Rajshahi">IVAC, Rajshahi</option>
+            <!-- Add more options if necessary -->
+        </select><br><br>
+
+        <label for="visa_type">Visa Type:</label>
+        <select name="visa_type" id="visa_type">
+            <option value="ENTRY VISA">ENTRY VISA</option>
+            <!-- Add more options if necessary -->
+        </select><br><br>
+
+        <h2>Personal Info</h2>
+        <label for="full_name">Full Name:</label>
+        <input type="text" name="full_name" id="full_name" value="Nafizul Islam"><br><br>
+
+        <label for="email_address">Email Address:</label>
+        <input type="email" name="email_address" id="email_address" value="nafizulislam.swe@gmail.com"><br><br>
+
+        <label for="contact_number">Contact Number:</label>
+        <input type="text" name="contact_number" id="contact_number" value="01737226404"><br><br>
+
+        <h2>Overview</h2>
+        <label>
+            <input type="checkbox" name="agree_terms"> I agree to the Terms of Service
+        </label><br><br>
+
+        <input type="submit" value="Save and Next">
+    </form>
+</body>
+</html>
